@@ -86,7 +86,7 @@ a:-webkit-any-link {
   display:flex;
   flex-direction:column;
   justify-content:center;
-  align-items: center;
+  align-items:center;
   background-color:black;
   z-index: 1;
   width:1200px;
@@ -110,15 +110,40 @@ h4{
 }
 
 .tea-mid{
+  padding-top:70px;
+  width:1000px;
+  height:770px;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content:flex-start;
   border: coral solid 1px;
+  flex-wrap:wrap;
+  margin: 0 100;
 }
 
 .tea-month{
+
   border: coral solid 1px;
 }
 
 .tea-kinds{
+  width:1000px;
+  height:600px;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
   border: coral solid 1px;
+}
+
+.tea{
+  padding:5;
+}
+
+.tea img{
+  height:200px;
+  width:300px;
 }
 
 .tea-bot{
