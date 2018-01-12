@@ -1,30 +1,146 @@
+html{
+  font-family:helvetica;
+  font-size:22px;
+  color:seashell;
+  background-color:black;
+  opacity:0.9;
+  text-align:center;
+  width:100%;
+}
 
-body
+body{
+  border: coral solid 1px;
+  display:flex;
+  flex-direction:column;
+  margin:0;
+}
 
-header
+header{
+  display:flex;
+  top:0;
+  height:69px;
+  width:100%;
+  background-color:black;
+  position:fixed;
+  border-bottom: 1px solid seashell;
+  border: coral solid 1px;
+  justify-content:space-between;
+  z-index: 5;
 
-.main
+}
 
-.tea-top
+.logo{
+  display:flex;
+  align-items: center;
+  justify-content:flex-start;
+}
 
-.image-top
+.logo img{
+  padding-left:10px;
+  height:50px;
+}
 
-.mission
+header .nav{
+  justify-content:flex-end;
 
-.tea-mid
+}
 
-.tea-month
+.nav{
+  display:flex;
+    align-items: center;
+}
 
-.tea-kinds
+li{
+  list-style: none;
+  padding:10px;
+}
 
-.tea-bot
+a:-webkit-any-link {
+  color:seashell;
+}
 
-.image-bot
+.main{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  margin-top:69px;
+  border: coral solid 1px;
+  flex-direction:column;
+  position:absolute;
+  width:100%;
+  z-index:0;
+}
 
-.tea-locations
+.tea-top{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height:700px;
+  width:1200px;
+  border: coral solid 1px;
+  margin: 0 auto;
+}
 
-.place
+.mission{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  background-color:black;
+  z-index: 1;
+  width:1200px;
+  border: coral solid 1px;
+  height:103px;
+}
 
-.contact
+h2,
+h3,
+h4{
+  margin:0;
+  padding:10px;
+}
 
-footer
+h2{
+  font-size:40px;
+}
+
+h4{
+  font-size:22px;
+}
+
+.tea-mid{
+  border: coral solid 1px;
+}
+
+.tea-month{
+  border: coral solid 1px;
+}
+
+.tea-kinds{
+  border: coral solid 1px;
+}
+
+.tea-bot{
+  border: coral solid 1px;
+}
+
+.image-bot{
+  border: coral solid 1px;
+}
+
+.tea-locations{
+  border: coral solid 1px;
+}
+
+.place{
+  border: coral solid 1px;
+}
+
+.contact{
+  border: coral solid 1px;
+}
+
+footer{
+  border: coral solid 1px;
+}
