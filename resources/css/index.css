@@ -26,7 +26,7 @@ header{
   border: coral solid 1px;
   justify-content:space-between;
   z-index: 5;
-
+  opacity:0.9;
 }
 
 .logo{
@@ -60,13 +60,15 @@ a:-webkit-any-link {
 }
 
 .main{
+  opacity:0.9;
   display:flex;
   align-items:center;
   justify-content: center;
   margin-top:69px;
   border: coral solid 1px;
   flex-direction:column;
-  position:absolute;
+
+  height:100%;
   width:100%;
   z-index:0;
 }
@@ -102,11 +104,23 @@ h4{
 }
 
 h2{
+
   font-size:40px;
 }
 
 h4{
   font-size:22px;
+}
+h2,
+h3,
+h4,
+h5,
+p{
+  opacity:.9;
+}
+
+h5{
+  margin: 15px auto;
 }
 
 .tea-mid{
@@ -147,25 +161,52 @@ h4{
 }
 
 .tea-bot{
-  border: coral solid 1px;
-}
-
-.image-bot{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width:1200px;
+  height:500px;
   border: coral solid 1px;
 }
 
 .tea-locations{
+  display:flex;
+  justify-content: center;
   border: coral solid 1px;
 }
 
+.places{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
 .place{
+  display:flex;
+  flex-direction:column;
+  height:300px;
+  width:300px;
+  background-color: black;
+  margin: 15px 20px;
+  opacity:1;
+  justify-content:center;
   border: coral solid 1px;
 }
 
 .contact{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  opacity:0.9;
+  height:200px;
   border: coral solid 1px;
 }
 
-footer{
+.footer{
+  display:flex;
+  margin-left:20px;
+  align-items:flex-start;
+  opacity:.9;
   border: coral solid 1px;
 }
