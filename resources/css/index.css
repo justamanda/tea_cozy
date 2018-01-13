@@ -23,10 +23,9 @@ header{
   background-color:black;
   position:fixed;
   border-bottom: 1px solid seashell;
-
   justify-content:space-between;
   z-index: 5;
-  opacity:0.9;
+  opacity:1;
 }
 
 .logo{
